@@ -5,7 +5,8 @@
   "author": "sakaime",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon server/index.js 192.168.33.10"
+    "dev": "nodemon server/index.js 192.168.33.10",
+    "start": "node server/index.js"
   },
   "dependencies": {
     "@line/bot-sdk": "^6.8.4",
