@@ -30,7 +30,7 @@ const returnRouter = function (io) {
 
 async function handleEvent(event) {
   if (event.type !== 'message' || event.message.type !== 'text') {
-    return Promise.resoleve(null);
+    return Promise.resolve(null);
   }
 
   // MongoDB にメッセージを保存する
